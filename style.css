@@ -1,0 +1,140 @@
+*{
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(200, 239, 244);
+}
+
+h1{
+    color: rgb(164, 142, 178);
+    margin-top: 1rem;
+    text-align: center;
+    font-size:3rem;
+    border: no;
+}
+
+.game-boad{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.boad{
+    border: 0.2rem solid rgb(44, 43, 43);
+    border-radius: 4vmin;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    background-color: rgba(175, 177, 161, 0.479);
+    height: 58vmin;
+    width: 85vmin;
+}
+
+.d_but{
+    display: block;
+    text-align: center;
+}
+
+button{
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    height: 7vmin;
+    width: 15vmin;
+    background-color: rgb(212, 214, 225);
+    color: rgb(89, 73, 98);
+}
+
+.dot-X{
+    margin-top: 4.2vmin;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dot{
+    background-color: rgba(21, 20, 20, 0.486);
+    border-radius: 50%;
+    height: 0.6rem;
+    width: 0.6rem;
+}
+
+.line-X{
+    border-radius: 7rem;
+    margin-left:1vmin;
+    background-color: rgba(166, 146, 146, 0.178);
+    font-size: 0rem;
+    height: 0.7vmin;
+    width: 7.6vmin;
+}
+.temp{
+    height: 0.6vmin;
+}
+    
+.line-Y{
+    font-size: 0rem;
+    border-radius: 7rem;
+    margin-left: 0.1vmin;
+    margin-top: 0.3vmin;
+    background-color: rgba(166, 146, 146, 0.178);
+    width: 0.7vmin;
+    height: 4.2vmin;
+}
+
+.temo_div_boad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sko_boad{
+    border-radius: 3vmin;
+    border: 2px solid;
+    align-items: center;
+    background-color: rgba(33, 27, 27, 0.572);
+    height: 14vmin;
+    width: 54vmin;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vmin;
+}
+
+#points1{
+    color: white;
+    font-size: 7vmin;
+    align-items: center;
+}
+#points2{
+    color: white;
+    font-size: 7vmin;
+    align-items: center;
+}
+
+.play1{
+    border-radius: 3vmin;
+    background-color: blue;
+    height: 12vmin;
+    width: 25vmin;
+    text-align: center;
+    border: 3px solid;
+}
+.play2{
+    border-radius: 3vmin;
+    background-color: red;
+    width: 25vmin;
+    height: 12vmin;;
+    text-align: center;
+}
+
+#play{
+    color: white
+}
+
+/* .area{
+    display: inline;
+    margin-left: 0.6rem;
+    background-color: rgba(180, 27, 27, 0.533);
+    height: 4vmax;
+    width: 5.5vmax;
+} */
