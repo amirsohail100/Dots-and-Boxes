@@ -10,7 +10,7 @@ An interactive, turn-based puzzle game built using vanilla front-end web technol
 
 The current game dashboard features a minimalist grid environment, live score tracking for players, and quick control actions:
 
-![Dots and Boxes Game UI](./image_0d7d83.png)
+![Dots and Boxes Game UI](UI_image.png)
 _(Note: Replace with your actual image file path in the repository)_
 
 ---
@@ -40,7 +40,7 @@ No web servers or build configurations are needed:
 1. Clone this repository to your local machine:
 
 ```bash
-git clone [https://github.com/your-username/dots-and-boxes.git](https://github.com/your-username/dots-and-boxes.git)
+git clone [https://github.com/amirsohail100/Dots-and-Boxes.git](https://github.com/amirsohail100/Dots-and-Boxes.git)
 ```
 
 An interactive Dots and Boxes grid game built with HTML, CSS, and JS! Features a dynamic scoreboard &amp; real-time turn tracking. Currently under active development (~65% completed) with core box-capturing logic being refined. Connect lines, complete boxes, and claim your victory!
